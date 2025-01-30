@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('¿Quieres ser mi San valentin Amor? ❤ Te amo').split('')
+    const titles = ('¿Quieres ser mi San valentin Amor? ❤ Te amo ').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
